@@ -1,0 +1,7 @@
+/*Body should be aligned center*/
+body {
+    text-align: center;
+}
+#birth_before_after {
+    padding-right: 50px;
+}

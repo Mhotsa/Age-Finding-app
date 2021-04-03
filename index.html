@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="page-header">
+                <h1>Age finding app</h1>
+            </div>
+            <!--Finding user's Birth year-->
+            <span>Enter your birth year.</span>
+            <input type="number" placeholder="Such as 2011" id="birth_year"><br><br>
+            <p>Please Select yes if your birthday have arrived already, else select no.</p>
+            <select id="birth_before_after">
+                <option>Yes</option>
+                <option>No</option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="button" onclick="show()" class="btn btn-primary">Show Age</button>
+            <div id="answer">
+
+            </div>
+        </div>
+    </body>
+</html>
